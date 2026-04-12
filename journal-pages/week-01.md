@@ -13,7 +13,7 @@ layout: default
 # Week 01 – Introduction & Data Drawings
 
 ## Introduction
-This week introduced the course and the idea of using data as a creative material. Although I was unable to attend the first class, I reviewed the course materials, slides, and assignment brief to understand the expectations for the week.
+This week introduced the course and the idea of using data as a creative material. Although I was unable to attend the first class, I reviewed the course materials, slides, and assignment brief to understand the expectations for the week
 
 The main focus was beginning Experiment 1: Data Drawings and setting up the Making Journal.
 
