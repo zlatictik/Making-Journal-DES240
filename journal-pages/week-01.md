@@ -112,4 +112,4 @@ I also want to push my ideas further instead of settling on the first design tha
 
 ## AI Usage Statement
 
-In this week's work I have not used AI.*
+In this week's work I have not used AI.* 
