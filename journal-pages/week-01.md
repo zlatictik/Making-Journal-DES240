@@ -75,9 +75,9 @@ Some ideas felt too complex or unclear, especially when combining emotional and 
 
 ### Final Outcome
 My final drawings balanced emotion and clarity:
-- Social interactions were visually distinct, using only blue for positive interactions and red colour for negative, making emotional patterns easier to notice  
+- Social interactions were visually distinct, using only blue for positive interactions and red colour for negative, making emotional patterns easier to notice. Instead of smiley and sad faces, I used solid filled with full color diferent sized shapes to show the size/impact of social interactions: bigger the shape is the more impact/emotion it had on me. The smaller the shape is, less emotions I felt.   
 - Phone usage formed dense repeated pattern such as different length horizontal lines, highlighting frequency as well as length of each phone check.
-- Avoided decisions appeared as fragmented/ unfinished star symbols, reflecting inconsistency and hesitation  
+- Avoided decisions appeared as fragmented/ unfinished star symbols, reflecting inconsistency and hesitation.
 
 This combination helped show both structured behaviours and more unpredictable emotional experiences.
 
@@ -110,12 +110,6 @@ For next week, I want to:
 
 I also want to push my ideas further instead of settling on the first design that works.
 
-## Images & Media
-
-*Use the format below to embed images from your assets folder:*
-
-*The text inside the square brackets is alt text (a description for accessibility), not a visible caption. To add a caption, place a line of italic text below the image.*
-
 ## AI Usage Statement
 
-*Document any use of AI tools under an AI Usage Statement heading. Explain which tools you used and describe how you used them. Reference any AI-generated content (see [QuickCite](https://auckland.libguides.com/referencing-generative-ai-tools) for guidance).*
+In this week's work I have not used AI.*
