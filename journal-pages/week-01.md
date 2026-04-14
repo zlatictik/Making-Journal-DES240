@@ -79,7 +79,7 @@ My final drawings balanced emotion and clarity:
 - Phone usage formed dense repeated pattern such as different length horizontal lines, highlighting frequency as well as length of each phone check.
 - Avoided decisions appeared as fragmented/ unfinished star symbols, reflecting inconsistency and hesitation.
 
-This combination helped show both structured behaviours and more unpredictable emotional experiences.
+This combination helped show both structured behaviours and more unpredictable emotional experiences. 
 
 ![Experiemnt 1 Testing Ideas](../assets/week-01/three%202026-04-13%20023041.png)
 `*Experiemnt 1 Testing Ideas*`
