@@ -125,78 +125,73 @@ Every 10 seconds for 10 minutes.
 
 This protocol was completed individually rather than in a pair. Instead of comparing results, I focused on how my own interpretation influenced the output. This highlighted how subjective judgement can affect data recording, even within a structured system.
 
-![Protocol Sketch](../assets/week-03/protocol.png) *Protocol Sketch Activity*
+![Protocol Sketch](../assets/week-03/protocol.png) *Protocol Sketch Activity 2 min long*
 
 ---
 
 ## Independent Study: Live Data Visualisation
 
-### Approach
+For this activity, I created a p5.js sketch that visualises live ocean data using an external API. The data includes wave height, wind speed, and wave direction, which are translated into an interactive visual system.
 
-I created an interactive p5.js sketch using live weather data. The goal was to translate real-time environmental data into an abstract visual system.
+### Iteration 1: Basic Mapping
 
----
+In the first version, I mapped wave height to the size of a single shape. This created a simple visual representation of ocean conditions, where larger waves produced bigger shapes.
 
-### Mapping
+This version helped me understand how live data can be directly translated into visual form.
 
-- Wind speed → controls line movement, thickness, and length  
-- Temperature → controls colour  
-- Slider → adjusts intensity of the visualisation  
+![Live Data Visualisation](../assets/week-03/waves_01.png) *Basic Mapping of Waves*
 
-Higher wind speeds create more dynamic and energetic visuals, while lower values produce calmer outputs.
+### Iteration 2: Adding Movement
 
----
+I improved the sketch by introducing `noise()` to create smooth and continuous wave motion. Instead of static shapes, the visual began to behave more like real water.
 
-### Interaction
+Wave height now influenced the amplitude of the waves, making the movement feel more natural and dynamic.
+
+![Live Data Visualisation](../assets/week-03/wave_02.png) *Iteration 2: Noise*
+
+### Iteration 3: Multiple Variables
+
+I expanded the system by adding more data variables:
+
+- Wave direction → rotation of the visual  
+- Wind speed → movement speed and intensity  
+
+This made the sketch more complex, as multiple aspects of the ocean were now influencing the visual output at the same time.
+
+![Live Data Visualisation](../assets/week-03/waves_03.png) *Iteration 3: Direction and Wind speed*
+
+### Final Version: Interactive System
+
+In the final version, I introduced interactivity and time-based control.
 
 The sketch includes:
-- A slider to control intensity  
-- Animated movement using noise()  
-- A trailing effect to show motion over time  
+- A slider to move through different hours of the day  
+- A visual timeline showing time progression  
+- Mouse interaction to distort the waves  
 
----
+The visual now responds to:
+- Wave height (size and amplitude)  
+- Wind speed (speed and chaos)  
+- Wave direction (rotation)  
+- Time (changing data over 24 hours)  
+
+This transformed the sketch into an interactive system where users can explore how ocean conditions change over time.
+
+![Live Data Visualisation](../assets/week-03/waves_final.png) *Iteration 4: Visual Timeline and Interactivity*
 
 ### Final Output
 
-![Final GIF](../assets/week-03/final.gif)  
-*Figure 5: Final interactive live data visualisation*
+[View Interactive Sketch](https://editor.p5js.org/avgustzlatictik/full/fUMWDK_xY)
 
----
+*Figure X: Final interactive ocean data visualisation*
 
-## Reflection
+### Reflection
 
-Working with live data introduced unpredictability into the design process. Unlike static data, the output constantly changes, making the visualisation more dynamic and engaging.
+This project showed how live data can be turned into an interactive and expressive visual system. Instead of reading numbers, the viewer can explore patterns through movement, colour, and interaction.
 
-Using APIs allowed me to connect real-world information directly to visual behaviour. This made the project feel more responsive and meaningful.
+By combining multiple variables with time and user input, the sketch became more dynamic and engaging. The use of `noise()` helped create smoother motion, making the visual feel more natural and less mechanical.
 
-The use of ChatGPT helped speed up development, but I still needed to understand and refine the code to achieve my intended outcome.
-
----
-
-## What I Learned
-
-- How to access live data using APIs  
-- How to use cURL in the terminal  
-- How to map real-world data to visual elements  
-- How interaction enhances data visualisation  
-- The importance of iteration when working with dynamic systems  
-
----
-
-## Future Improvements
-
-If I had more time, I would:
-- Include additional weather variables (e.g. humidity, rain)  
-- Improve the visual design and layout  
-- Add more user interaction  
-
----
-
-## Conclusion
-
-This experiment demonstrated how live data can be used as a creative input. By combining APIs, interaction, and visual systems, I created a dynamic representation of real-world conditions.
-
----
+Overall, the final result demonstrates how data can be experienced visually rather than just observed.
 
 ## AI Usage Statement
 
@@ -204,9 +199,4 @@ I used ChatGPT to assist with coding, debugging, and structuring my ideas. It he
 
 ### References
 
-OpenAI. (2026). ChatGPT (GPT-5.3) [Large language model]. https://chatgpt.com/
-
-
-## AI Usage Statement
-
-*Document any use of AI tools under an AI Usage Statement heading. Explain which tools you used and describe how you used them. Reference any AI-generated content (see [QuickCite](https://auckland.libguides.com/referencing-generative-ai-tools) for guidance).*
+OpenAI. (2025). ChatGPT (GPT-5.3) [Large language model]. https://chatgpt.com/.*
