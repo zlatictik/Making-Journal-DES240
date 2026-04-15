@@ -8,7 +8,7 @@ layout: default
 
 ## Documentation 
 
-* # Week 02 – Interactivity
+# Week 02 Interactivity
 
 ## Introduction
 This week focused on introducing interactivity using p5.js. The goal was to move from static data drawings (Week 1) into digital sketches that respond to user input. I explored basic coding, then added interactive controls, and finally developed a more complex interactive data visualisation based on my previous experiment.
