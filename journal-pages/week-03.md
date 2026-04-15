@@ -153,8 +153,8 @@ Wave height now influenced the amplitude of the waves, making the movement feel 
 
 I expanded the system by adding more data variables:
 
-- Wave direction → rotation of the visual  
-- Wind speed → movement speed and intensity  
+- Wave direction - rotation of the visual  
+- Wind speed - movement speed and intensity  
 
 This made the sketch more complex, as multiple aspects of the ocean were now influencing the visual output at the same time.
 
@@ -181,15 +181,13 @@ This transformed the sketch into an interactive system where users can explore h
 
 ### Final Output
 
-[View Interactive Sketch](https://editor.p5js.org/avgustzlatictik/full/fUMWDK_xY)
-
-*Figure X: Final interactive ocean data visualisation*
+[View Interactive Sketch](https://editor.p5js.org/avgustzlatictik/full/fUMWDK_xY) (Final interactive ocean data visualisation)
 
 ### Reflection
 
 This project showed how live data can be turned into an interactive and expressive visual system. Instead of reading numbers, the viewer can explore patterns through movement, colour, and interaction.
 
-By combining multiple variables with time and user input, the sketch became more dynamic and engaging. The use of `noise()` helped create smoother motion, making the visual feel more natural and less mechanical.
+By combining multiple variables with time and user input, the sketch became more dynamic and engaging. The use of noise helped create smoother motion, making the visual feel more natural and less mechanical.
 
 Overall, the final result demonstrates how data can be experienced visually rather than just observed.
 
