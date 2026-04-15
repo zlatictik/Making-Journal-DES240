@@ -15,92 +15,6 @@ This week focused on introducing interactivity using p5.js. The goal was to move
 
 ---
 
-## Activity 1 – Drawing with Code
-
-In this activity, I learned how to use p5.js to create simple visual compositions using code. I experimented with different shapes such as rectangles, circles, triangles, and lines.
-
-I explored how changing colour, size, and position affects the composition. I also tested how the order of the code changes layering—for example, shapes drawn later appear on top of earlier ones.
-
-This helped me understand how code translates directly into visual output, and how small changes can significantly affect the design.
-
-*(Insert screenshot of initial shapes)*  
-*(Insert screenshot of colour/position experiments)*
-
----
-
-## Activity 2 – Interactive Sketch (Mood Interaction)
-
-For this task, I created a simple interactive sketch based on emotions.
-
-The sketch used:
-- A slider to control the size of a circle (representing emotional intensity)
-- A button to randomly change the colour (representing mood)
-
-This allowed the user to interact with the visual and see immediate changes on the canvas.
-
-Through this, I learned how user input can directly influence visual elements, making the experience more engaging compared to static drawings.
-
-*(Insert screenshot of slider working)*  
-*(Insert screenshot of button changing colours)*
-
----
-
-## Iteration – Social Interaction Map
-
-Building on the earlier activities, I developed a more complex interactive sketch based on my Week 1 data. This visualisation represents social interactions and how they made me feel.
-
-Each interaction is shown as a circle:
-- Blue = positive interactions  
-- Grey = neutral interactions  
-- Red = negative interactions  
-
-I added multiple interactive elements:
-- A slider to control the size of interactions  
-- A slider to control spacing and layout  
-- A button to randomise the arrangement  
-- A reset button to return to the original state  
-- A text input to customise the title  
-- A dropdown menu to change layout (random, grid, line)  
-- Checkboxes to filter positive, neutral, and negative interactions  
-
-These controls allow the viewer to explore the data in different ways. For example, filtering interactions makes it easier to focus on specific emotional patterns, while changing the layout reveals different structures in the data.
-
-*(Insert screenshot of early version)*  
-*(Insert screenshot of controls)*  
-*(Insert screenshot of final interactive sketch)*
-
----
-
-## Reflection
-
-This week helped me understand how interactivity can add another layer to data visualisation. Compared to my hand-drawn work from Week 1, the digital version allows users to explore and manipulate the data themselves.
-
-One of the main challenges was learning how to connect controls (like sliders and buttons) to visual changes. It took some trial and error to understand how variables affect the drawing.
-
-Using interactivity made the data feel more dynamic and engaging. It also made patterns easier to explore, especially when filtering or changing layouts.
-
-If I had more time, I would improve the visual design further and make the interactions smoother and more refined.
-
----
-
-## What I Learned
-- How to use p5.js to create visual outputs  
-- How to use DOM elements like sliders, buttons, and inputs  
-- How interactivity can change how data is experienced  
-- How to translate personal data into an interactive format.
-
-# Week 02 – Interactivity
-
-## Experiment 2: Interactivity
-
----
-
-## Overview
-
-This week focused on using p5.js to explore interactivity through code. The aim was to move from static, hand-drawn data (Week 1) into dynamic sketches that respond to user input. This involved learning basic coding principles and using DOM elements such as sliders, buttons, and inputs to control visual outputs. 
-
----
-
 ## Activity 1: Drawing with Code
 
 In this activity, I explored the basics of p5.js by creating simple compositions using shapes such as rectangles, ellipses, and lines.
@@ -137,13 +51,13 @@ These controls allowed the user to directly influence the visual output. Compare
 *Figure 3: Slider controlling visual changes*
 
 ![Button and input](../assets/week-02/activity_22.png)  
-*Figure 4: Button and text input interacting with the sketch*
+*Figure 4: Button and text input interacting with the sketch. Random placement. Shows size difference.*
 
 ![something](../assets/week-02/activity_233.png)  
-*Figure 5: Something*
+*Figure 5: Changed size of impact*
 
 ![something](../assets/week-02/activity_234.png)  
-*Figure 6: Something*
+*Figure 6: Linear setting. Data shown in order*
 
 ---
 
@@ -164,7 +78,7 @@ This process required both experimentation and understanding the generated code.
 *Figure 7: Interactive Rain Stimulation*
 
 ![Final vibe-coded version](../assets/week-02/raingif.gif)  
-*Figure 8 GIF: Improved interactive version after iteration*
+*Figure 8 GIF: Different Interactive Settings view*
 
 ---
 
@@ -172,19 +86,26 @@ This process required both experimentation and understanding the generated code.
 
 ### Overview
 
-For the independent study, I translated my Week 1 data into an interactive p5.js sketch. The data focused on phone-checking frequency across different days and times.
+For the independent study, I translated my Week 1 data into an interactive p5.js sketch. I included all three of my data topics: Screentime, Avoidant desidions  and Social Interactions across different days and times.
 
 ---
 
 ## Step 1: Translate Data into Code
 
 I identified key elements from my original drawing:
-- Time of day → vertical position  
-- Days → horizontal columns  
-- Phone checks → represented as marks  
+- Time of day = vertical position  
+- Days = horizontal columns  
+- Phone checks = represented as line marks
+- Avoided decidions = stars
+- Social interactions = red and blue circles.
 
-Instead of directly replicating the drawing, I simplified the data into an abstract visual system using lines and dots.
+I realized that there are too many different data shown in my visual diagram, which makes it confusing to interact with. Therefore, for my first interation, I decided to simplify the data and use only one topic - Phone checks freaquancy and it's length.
 
+![Vibe-coded version](../assets/week-02/w2home1.png)  
+*All Data Entry*
+
+![Vibe-coded version](../assets/week-02/W2home_2.png)  
+*Day 3 shown*
 ---
 
 ## Step 2: Design Interactive Visualisation
@@ -192,40 +113,41 @@ Instead of directly replicating the drawing, I simplified the data into an abstr
 I designed an abstract diagram where:
 - Each column represents a day  
 - The vertical axis represents time  
-- Lines and dots represent phone-checking activity  
+- Lines and dots represent phone-checking activity
+- One colour is used as there is no colour variables  
 
 The sketch includes:
 - A time slider to filter visible data  
-- An intensity slider to control activity levels  
-- Mouse interaction to add new data points  
+- An intensity slider to control activity levels   
 
-Behaviour-based logic was introduced:
-- Higher usage → longer, thicker lines  
-- Lower usage → shorter, thinner lines  
-
-Animation was also added:
-- Higher intensity → faster movement  
-- Lower intensity → slower movement  
-
+![Vibe-coded version](../assets/week-02/W2home_3.png)  
+*Iteration one*
 ---
 
 ## Step 3: Iteration
 
 Through testing and refinement, I improved the clarity and interactivity of the sketch.
 
-Key changes included:
-- Structuring the layout into clear day columns and time rows  
-- Adding labels to improve readability  
+Behaviour-based logic was introduced:
+- Higher usage = longer, thicker lines  
+- Lower usage = shorter, thinner lines 
+
+Animation was also added:
+- Higher intensity = faster movement  
+- Lower intensity = slower movement
+
+Other key changes included:
+- Adding labels to improve readability and understanding  
 - Introducing motion (wiggle effect) to represent activity  
 - Adding a trailing effect to visualise repeated behaviour over time  
 
 ### Process Screenshots
 
-![Early sketch](insert-image-here.png)  
-*Figure 7: Early version of data visualisation*
+![Improved structure](../assets/week-02/w2home_4.png)  
+*Improved layout. Clearer data length and freakquncy depiction*
 
-![Improved structure](insert-image-here.png)  
-*Figure 8: Improved layout with clearer time and day structure*
+![Final Output](../assets/week-02/W2home_5.png)  
+*Added headings and Interactive features are clear*
 
 ---
 
@@ -242,8 +164,7 @@ This project demonstrated how interactivity can transform data visualisation. Co
 
 Interactivity enables users to filter and manipulate the data, revealing patterns that are not immediately obvious in a static format.
 
-Using ChatGPT supported rapid experimentation, but required understanding and adapting the code to suit my idea.
-
+Using ChatGPT supported rapid experimentation. I asked for different prompts and for help in understanding and adapting the code to suit my idea. It was also helpfull asking ChatGPT for ideas to make my sketch more interactive and clear.
 ---
 
 ## What I Learned
@@ -260,24 +181,23 @@ Using ChatGPT supported rapid experimentation, but required understanding and ad
 
 If I had more time, I would:
 - Refine the visual design further  
-- Use my exact recorded data instead of generated values  
-- Improve interaction with more responsive controls  
+- Improve interaction with more responsive controls
+- Experiment with ideas and representation of my data
 
 ---
 
 ## Conclusion
 
-This week showed how coding can be used as a creative tool to explore and communicate data. By combining abstraction, interaction, and iteration, I transformed a static drawing into a dynamic and engaging visual system.
-
-## Images & Media
-
-*Use the format below to embed images from your assets folder:*
-
-`![Expreiment 1 Testing Ideas](../assets/week-01/Experiment 1 testing ideas Screenshot)`
-`*Your caption here*`
-
-*The text inside the square brackets is alt text (a description for accessibility), not a visible caption. To add a caption, place a line of italic text below the image.*
+This week showed how coding can be used as a creative tool to explore and communicate data. By combining abstraction, interaction, and iteration, I transformed a static drawing into a dynamic and engaging visual model.
 
 ## AI Usage Statement
 
-*Document any use of AI tools under an AI Usage Statement heading. Explain which tools you used and describe how you used them. Reference any AI-generated content (see [QuickCite](https://auckland.libguides.com/referencing-generative-ai-tools) for guidance).*
+*For this week’s journal entry, I used ChatGPT to support the development of my interactive p5.js sketches. I used it to generate code examples, troubleshoot issues, and explore ideas to translate my hand-drawn data into an interactive digital format.
+
+I asked for help with building interactive controls (such as sliders and buttons), refining the visual structure of my sketch, and improving the behaviour of elements (such as adding motion and intensity-based animation).
+
+All generated code was tested and modified to fit my own design intentions and understanding.
+
+### References
+
+OpenAI. (2025). ChatGPT (GPT-5.3) [Large language model]. https://chatgpt.com/*
