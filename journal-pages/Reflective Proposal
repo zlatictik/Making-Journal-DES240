@@ -1,0 +1,25 @@
+## Reflective Proposal
+
+### 
+
+Through my Making Journal, I explored different ways of working with data, particularly by tracking my own behaviour and translating it into interactive visual systems. I found this process engaging because it connected data to lived experience rather than treating it as abstract information. Creating interactive sketches helped me understand how data can be felt through movement, interaction, and visual change, rather than just read as numbers.
+
+Across these experiments, I became interested in the datafication of everyday life, where actions such as phone usage, time management, and social behaviour are continuously tracked and interpreted. This raised questions about how these systems influence behaviour and shape self-perception. As Gal (2016) suggests, constant data surveillance can subtly change how people act, encouraging them to conform to measurable patterns. While my earlier work focused on individual data, I now want to expand this into a collective context, exploring how shared data can create connections between people.
+
+My project proposes a speculative system where individuals can choose to share aspects of their behavioural data in order to discover similarities and differences with others. Instead of using data purely for optimisation or control, this system reframes it as a tool for connection. Users might compare patterns such as daily rhythms, activity levels, or digital habits, forming relationships based on behavioural alignment. This introduces a new form of “data matching,” where connections are based on lived patterns rather than predefined categories.
+
+A key focus of this project is ethical data use. The system emphasises transparency, consent, and user ownership, allowing individuals to decide what data is shared and how it is represented. This aligns with principles of data humanism, which aim to make data more personal, contextual, and reflective of human experience (Lupi, n.d.). It also responds to concerns about data extraction and control, where personal information is often collected without meaningful consent (Couldry & Mejias, 2019). By shifting control back to users, the project explores how data systems might operate more ethically.
+
+The data used will combine self-collected and simulated data. Personal data such as phone usage or daily routines will form the basis, while simulated data will represent a broader community. The system will interpret this data by identifying patterns and similarities, translating them into visual relationships between users.
+
+The visualisation will be an interactive system developed in p5.js, where individuals are represented as nodes within a shared space. Connections between users will emerge based on similarity, forming dynamic networks that shift over time. Visual elements such as colour, movement, and proximity will reflect degrees of alignment or difference.
+
+The goal of this project is to encourage viewers to rethink how data can be used beyond surveillance and optimisation. Instead of reducing individuals to metrics, the project explores how data can foster connection while respecting privacy and ownership. It asks whether data can be both personal and shared, and how ethical frameworks might shape future data-driven systems.
+
+## References
+
+Couldry, N., & Mejias, U. A. (2019). *The costs of connection: How data is colonizing human life and appropriating it for capitalism*. Stanford University Press.
+
+Gal, U. (2016, October 11). *Data surveillance is all around us, and it’s going to change our behaviour*. The Conversation. https://theconversation.com/data-surveillance-is-all-around-us-and-its-going-to-change-our-behaviour-65323
+
+Lupi, G. (n.d.). *Data Humanism*. Giorgialupi. https://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold
